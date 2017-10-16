@@ -1,0 +1,12 @@
+{
+    "full_name": "Hector Rondon",
+    "email": "hectorerb@gmail.com",
+    "summary" : "cookiecutter template for swift framework",
+    "project_name": "swift-framework-template",
+    "repo_source": "https://github.com/hectorerb/swift-framework-template.git",
+    "bundle_identifier" : "com.organization.app",
+    "organization_name" : "template-swift",
+    "homepage" : "https://about.me/hectorerb",
+    "version": "0.0.1",
+    "twitter": "hectorerb_"
+}

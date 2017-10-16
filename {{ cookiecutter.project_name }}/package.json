@@ -1,0 +1,60 @@
+{
+  "name": "@teclib/ios-library-glpi",
+  "version": "{{ cookiecutter.version }}",
+  "description": "{{ cookiecutter.summary }}",
+  "homepage": "{{ cookiecutter.repo_source }}#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version"
+  },
+  "keywords": [
+    "glpi",
+    "flyve",
+    "inventory",
+    "mdm",
+    "mobile",
+    "device",
+    "management"
+  ],
+  "authors": [
+    {
+      "name": "{{ cookiecutter.full_name }}",
+      "email": "{{ cookiecutter.email }}"
+    },
+    {
+      "name": "Alexander Salas Bastidas",
+      "email": "asalas@teclib.com"
+    }
+  ],
+  "license": "Apache License, Version 2.0",
+  "social_media_url": "https://twitter.com/FlyveMDM",
+  "platforms": {
+    "ios": "9.3"
+  },
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "3"
+  },
+  "pushed_with_swift_version": "3.0",
+  "ignore": [
+    "**/.*"
+  ],
+  "source": {
+    "git": "{{ cookiecutter.repo_source }}.git",
+    "tag": "1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+{{ cookiecutter.repo_source }}.git"
+  },
+  "bugs": {
+    "url": "{{ cookiecutter.repo_source }}/issues"
+  },
+  "private": true,
+  "devDependencies": {
+    "standard-version": "^4.2.0"
+  },
+  "dependencies": {
+    "conventional-github-releaser": "^1.1.12"
+  }
+}
